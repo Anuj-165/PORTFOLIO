@@ -1,0 +1,385 @@
+@import url(https://fonts.google.com/share?selection.family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700);
+
+body{
+    height:450vh;
+    background:linear-gradient(#A31D1D,#FEF9E1);
+    font-family:"PT Serif", serif;
+}
+
+header{
+    top:0;
+    position: sticky;
+    border:2px solid transparent;
+}
+
+
+nav{
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+   
+    
+}
+
+nav .left{
+    display:flex;
+    top:0px;
+    position:relative;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    color:beige;
+    font-size: 40px;
+
+
+}
+
+
+nav .right {
+    top:2%;
+    position: sticky;
+    display:flex;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    color:beige
+}
+
+nav  ul{
+    display:flex;
+    justify-content:center;
+    gap:5px;
+}
+
+nav li {
+    list-style: none;
+    margin:0 23px;
+
+}
+
+nav .right ul li.active {
+    color:#FFD700; /* Change the color for active item */
+    font-weight: bold;
+}
+
+
+nav  li:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+
+.one {
+    display:flex;
+    justify-content: space-between;
+    align-content:center;
+    top:60px;
+    position:relative;
+
+
+}
+
+.one .right{
+    display:inline-flex;
+
+}
+
+.one .left{
+   
+    width:400px;
+    height:400px;
+    display:inline-flex;
+    font-weight: bolder;
+    font-size: xx-large;
+    align-items: center;
+    color:beige;
+    margin:0 30px;
+
+}
+
+
+.two{
+    display:flex;
+    justify-content: space-between;
+    align-content:center;
+    top:120px;
+    position: relative;
+    gap:60px
+}
+
+
+
+.two  img{
+    top:130px;
+    position:relative;
+    height:400px;
+    border-radius: 200px;
+    border:10px solid rgb(16, 52, 65);
+    filter: drop-shadow(0 10px);
+    display: flex;
+}
+
+.two h1{
+    top:130px;
+    position:relative;
+    color:beige;
+    margin:0 30px;
+    text-align: center;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.two p{
+    top:130px;
+    position:relative;
+    color:beige;
+    margin:0 30px;
+    padding: 30px;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.two span{
+    border:2px solid transparent;
+    top: 150px;
+    left:400px;
+    position: relative;
+    display: flex;
+    align-self: center;
+    background: rgb(240, 62, 8);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "PT Serif", serif;
+    color:beige;
+    border-radius: 19px;
+    width:160px;
+    height:30px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3px;
+    cursor: pointer;
+
+}
+
+.three h1{
+    top:390px;
+    position:relative;
+    text-align: center;
+    font-size: 50px;
+    color:beige;
+    
+
+}
+
+.three .container{
+    display:flex;
+    top:410px;
+    position:relative;
+    align-content: center;
+    justify-content: space-between;
+    gap:80px;
+    text-align: center;
+}
+
+
+.three .box{
+    width:300px;
+    height:300px;
+    display: flex;
+    border:2px solid white;
+    margin:0 30px;
+    top:30px;
+    position:relative;
+    text-align: center;
+    justify-content:center;
+    overflow: hidden;
+    gap:10px;
+    
+    
+    
+
+    
+}
+
+.three .box:nth-child(2){
+    height:400px;
+    width:400px;
+    top:1px;
+    position:relative;
+
+
+    
+    
+}
+
+.three  h2{
+    color:beige;
+    text-align:center;
+    display: flex;
+    position: relative;
+    top:35px;
+    left:110px;
+  
+    
+   
+}
+
+.three img{
+    top:20px;
+    position:relative;
+  
+   
+}
+
+.three p{
+    top:40px;
+    position:relative;
+    color:beige;
+}
+
+.three h2 :nth-child(2){
+    left:120px;
+    position:relative;
+}
+
+.four span{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:50px;
+    top:570px;
+    justify-content: center;
+    position:relative;
+   
+}
+
+.four h1{
+    top:530px;
+    position:relative;
+    text-align: center;
+    color:beige;
+    font-size:50px;
+}
+
+.four div{
+    border:2px solid white;
+    width:250px;
+    height:250px;
+    text-align: center;
+    
+
+
+    
+}
+
+.four h2{
+    color:rgb(255, 0, 0);
+    font-weight: 100px;
+
+}
+
+.four p{
+    position:relative;
+    top:20px;
+}
+
+
+.five {
+    top:790px;
+    position:relative;
+    text-align: center;
+}
+
+.five h1{
+    justify-content: center;
+    color:rgb(255, 0, 0);
+    font-size: 50px;
+}
+
+.cont{
+    display: flex;
+    gap:40px;
+    top:870px;
+    justify-content: center;
+    position:relative;
+
+}
+
+ .cont i {
+    font-size: 24px;        
+    cursor: pointer;        
+
+}
+
+.cont i:hover {
+    transform: scale(1.2); 
+}
+
+
+footer{
+    top:880px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+@media (max-width: 768px) {
+    nav .right ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one, .two, .three, .four, .five {
+        padding: 10px;
+    }
+
+    .one .left {
+        font-size: large;
+    }
+
+    .two img {
+        width: 100%;
+        height: auto;
+    }
+
+    .three .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .three .box, .four div {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .three .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .four span {
+        grid-template-columns: auto auto;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
